@@ -1,4 +1,16 @@
 aid: friday-finance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/friday-finance.png
 name: Friday Finance
 description: Friday Finance is a company surfaced as a portfolio company of speedinvest and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,9 +23,24 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-enrichment-status: no-live-surface
+x-enrichment-checked: '2026-07-20'
+x-enrichment-notes: 'Re-probed 2026-07-20: still no live developer surface. fridayfinance.com
+  now 302-redirects to hugedomains.com (domain for sale); its api./docs./developer.
+  subdomains resolve only to the HugeDomains parking wildcard (no HTTPS, no well-known).
+  friday-finance.com and fridayfinance.io remain NXDOMAIN. The known Airbank rebrand is
+  gone too: airbank.com serves a domain-parking lander and getairbank.com has been
+  repurposed into an unrelated (Vietnamese casino) site. No API, OpenAPI, docs, or
+  well-known surface available to search/derive/probe. Friday Finance is defunct/wound
+  down. Re-check on future runs; nothing enrichable this round.'
 tags:
 - Company
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 apis: []
 maintainers:
 - FN: Kin Lane
